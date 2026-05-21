@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<script src="https://kit.fontawesome.com/eed8ba6d89.js" crossorigin="anonymous"></script>
+<title>Used cars</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+	<div id="wrapper">
+	<header>
+		
+	  </header>
+	<nav>
+		<ul>
+						<li><a href="index.html">Home Page</a></li>
+		<li><a href="sales.html">Sales</a></li>
+		<li><a href="carrental.html">Car Rental</a></li>
+		<li><a href="repairs.html">Repairs</a></li>
+		<li><a href="location.html">Location</a></li>
+		<li><a href="usedcars.html">Used Cars</a></li>
+		
+		</ul>
+	  </nav>
+		<p class="wide">We specialize in selling high-quality used cars at competitive prices. Every vehicle is carefully inspected to ensure reliability, safety, and customer satisfaction. We value honesty, transparency, and professional service, helping each customer find the perfect car for their needs and budget. With a wide selection of vehicles and a customer-focused approach, we make buying a used car simple, safe, and stress-free.
+</p>
+		<main>
+			
+			<div class="slideshow-container">
+			
+				
+			<div class="mySlides fade">
+				<div class="numbertext">1/3
+				</div>
+				<img src="images/Lamborghini-1980.webp" style="width:100%" alt="">
+				<div class="text">Bugatti
+				</div>
+			</div>
+			
+			<div class="mySlides fade">
+				<div class="numbertext">2/3
+				</div>
+				<img src="images/chevrole 1980.jpg" style="width:100%" alt="">
+				<div class="text">Chevrole
+				</div>
+			</div>
+				
+				
+			<div class="mySlides fade">
+				<div class="numbertext">3/3
+				</div>
+				<img src="images/1980_chevrolet_corvette.webp" style="width:100%" alt="">
+				<div class="text">Corvette
+				</div>
+			</div>
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				
+				
+			
+			
+			
+			</div>
+		
+			
+			
+			
+			
+			
+		
+		</main>
+		<footer>
+		
+		<a href="https://www.facebook.com/profile.php?id=61589658316782" target="_blank"><i class="fab fa-facebook"></i></a>
+		&copy;ALEX 2026
+	</footer>
+	</div>
+	
+	
+	
+	
+	
+	
+	<script>
+		let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  
+  slides[slideIndex-1].style.display = "block";
+  
+}
+	</script>	
+</body>
+</html>

@@ -1,0 +1,196 @@
+@charset "utf-8";
+html {box-sizing: border-box}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+		max-width: 1500px;
+
+		background-color: #C3BCBC;
+		margin-right: auto;
+		margin-left: auto;
+		
+	}
+	header{
+		background-image: url("images/ALEXAVTO.png") ;
+		height: 200px;
+		width: 1500px;
+		z-index: 1;
+		
+	}
+	nav{background-color: #73020C;
+	position: sticky;
+		top: 0px;
+		
+	
+	}
+footer {
+	clear:both;
+	font-size: 25px;
+}
+
+h2{
+	
+	font-size: 50px;
+}
+
+h3 {
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color:#73020C;
+	font-size: 50px;
+	text-align: center;
+	
+}
+h4	
+{ 
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color:#73020C;
+	font-size: 40px;
+	text-align: center;
+	
+}
+p 
+{
+	font-size: 16px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
+	
+}
+
+	nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;	
+		width: 100%;
+	}
+	nav li a {
+		
+		
+		text-decoration: none;
+		display: block;
+		padding: 14px 16px;
+		background-color: #869D97;
+	color: #ffffff;
+		text-align: center;
+		
+		
+	}
+	.active {
+		background-color: #FB1712;
+		color: #ffffff;
+		
+	}
+	nav li {
+		display: inline;
+		float: left;
+		border-right:1px solid #bbb;
+		
+	}
+	nav li a:hover{
+		background-color: #111;
+	}
+img { vertical-align: middle;
+}
+.slideshow-container{
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+.mySlides{
+	display:none;
+}
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+.numbertext{
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+.prev,.next{
+	cursor:pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+.next{
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+	background-color: rgba(0,0,0,0.8);
+}
+.fade{
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+@keyframes fade {
+	from{opacity:.4}
+	to{opacity:1}
+}
+
+
+.container {
+	width: 1200px;
+	margin: auto;
+	background: #000;
+	display: block;
+	padding: 10px;
+}
+
+.card {
+	width: 350px;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 15px;
+	border: 2px solid #b72256;
+	border-radius: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 550px;
+	display: inline;
+	color: black;
+	
+}
+.wide{
+	font-size: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color:#B48035;
+
+	text-align: center;
+	padding-bottom: 20px;
+	
+	
+}
+
+.layout {
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 20px;
+	
+	
+} 
